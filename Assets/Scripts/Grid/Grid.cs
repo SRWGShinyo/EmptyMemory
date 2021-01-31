@@ -37,7 +37,6 @@ public class Grid : MonoBehaviour
                     return;
                 }
 
-                Debug.Log(" " + positions + " " + i + " " + j);
                 positionsToOccupy.Add((positions.Item1, positions.Item2));
             }
 

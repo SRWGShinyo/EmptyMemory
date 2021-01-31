@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Grenier.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: d2ab21931f7586a419af525d954b4e59
+  - enabled: 1
+    path: Assets/Scenes/Grenier1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Puzzle1.unity
+    guid: 91deb8bc2afa954488b1724155ef0677
   m_configObjects: {}
