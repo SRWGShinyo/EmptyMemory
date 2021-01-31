@@ -10,26 +10,46 @@ public class PositionPiece : MonoBehaviour
         public List<int> column;
     }
 
+
+    public Transform select;
     public List<SpriteRenderer> graphics;
     public List<VectorStored> matrix = new List<VectorStored>();
     public List<(int, int)> positions = new List<(int, int)>();
 
     public GridCell snappedTo;
     public bool isSnapped;
+    public static bool isMoving;
 
-    bool selected;
 
+    public void CastRay()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, LayerMask.GetMask("Stuff"));
+        if (hit.collider != null)
+        {
+
+        }
+    }
     // Update is called once per frame
     void Update()
     {
+        if (Grid.grid && !Grid.grid.gameInCourse)
+        {
+            if (HitColliderRay.selected == this)
+                graphics[0].color = Color.white;
+            HitColliderRay.selected = null;
+            return;
+        }
+
         if (isSnapped)
         {
             Vector2 mousePOsition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.position = new Vector3(mousePOsition.x, mousePOsition.y, transform.position.z);
         }
 
-        if (Input.GetMouseButtonDown(0) && selected)
+        if (Input.GetMouseButtonDown(0) && HitColliderRay.selected == this)
         {
+            isMoving = true;
             if (!snappedTo)
                 isSnapped = true;
             else
@@ -42,34 +62,27 @@ public class PositionPiece : MonoBehaviour
 
         else if (Input.GetMouseButtonDown(1) && isSnapped)
         {
+            isMoving = false;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity, LayerMask.GetMask("Cell"));
-            if (hit.collider != null && hit.transform.GetComponent<GridCell>())
-            {
-                Debug.Log("Snap2");
-                Grid.grid.SnapPieceToGrid(hit.transform.GetComponent<GridCell>(), this);
-            }
-
-            else
-            {
-                isSnapped = false;
-
-
-            }
+            Grid.grid.SnapPieceToGrid(FindTheProperCell(), this);
         }
     }
 
-    private void OnMouseEnter()
+    private GridCell FindTheProperCell()
     {
-        selected = true;
-        foreach (SpriteRenderer s in graphics)
-            s.color = Color.blue;
-    }
+        GridCell gc = Grid.grid.allGridCells[0];
+        float minDist = Mathf.Infinity;
+        foreach(GridCell g in Grid.grid.allGridCells)
+        {
+            float distanceNew = Mathf.Sqrt(Mathf.Pow((select.transform.position.x - g.transform.position.x), 2) + Mathf.Pow((select.transform.position.y - g.transform.position.y), 2));
+            if (distanceNew < minDist)
+            {
+                gc = g;
+                minDist = distanceNew;
+            }
+        }
 
-    private void OnMouseExit()
-    {
-        selected = false;
-        foreach (SpriteRenderer s in graphics)
-            s.color = Color.red;
+        return gc;
     }
 }

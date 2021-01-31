@@ -21,6 +21,8 @@ public class AppearAllProperly : MonoBehaviour
                 cg.alpha += 0.01f;
                 yield return new WaitForSeconds(0.01f);
             }
+            cg.blocksRaycasts = true;
+            cg.interactable = true;
             yield return new WaitForSeconds(0.6f);
         }
 
