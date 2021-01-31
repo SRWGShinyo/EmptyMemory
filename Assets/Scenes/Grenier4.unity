@@ -258,7 +258,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5603313b78a568f468ffdf7ed30cf7be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 23d93bedd07d0344baa18bad1bfa43c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -400,6 +400,108 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3893825356682833153, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893825356682833153, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[8]
+      value: '...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[9]
+      value: Okay. I think I'm done.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[10]
+      value: Dad, Sis, Mom...thanks for all of those memories...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[11]
+      value: And thank you for keeping all of those items...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[0]
+      value: That telescope...mom...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[1]
+      value: I miss you so much...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[2]
+      value: You loved telling me stories about the stars...showing me the beauty
+        of the world
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[3]
+      value: You had such a positive attitude, always...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[4]
+      value: I loved our little astronomy sessions !
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[5]
+      value: '...even though, sometimes, you could be a bit of a hassle with that...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[6]
+      value: '...somewhat forcing me to observe with you, for ''culture''...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[7]
+      value: '...but nonetheless, that was great.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[12]
+      value: '...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[13]
+      value: It's late. I should go home now.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[14]
+      value: Dad, Sis Mom...Good bye...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[15]
+      value: It's too bad no one will ever find your bodies where I hid them, you
+        deserved a proper burial...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444968148634, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4322421445935484948, guid: 27748297de200ef49b14566bc97b5af6,
         type: 3}
       propertyPath: m_Name
@@ -458,6 +560,11 @@ PrefabInstance:
     - target: {fileID: 4322421445935484949, guid: 27748297de200ef49b14566bc97b5af6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031108914194806222, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

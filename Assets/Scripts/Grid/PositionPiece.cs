@@ -54,6 +54,7 @@ public class PositionPiece : MonoBehaviour
             {
                 isSnapped = false;
 
+
             }
         }
     }

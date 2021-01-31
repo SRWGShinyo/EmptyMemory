@@ -258,7 +258,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5603313b78a568f468ffdf7ed30cf7be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 702710b4a64f83549b4545e61492246f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -400,6 +400,76 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3893825356682833153, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893825356682833153, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[8]
+      value: At least, all those items bring back memories...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[9]
+      value: Okay...it's getting late, let's finish this...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[0]
+      value: Oh goodness this teddy bear...i completely forgot
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[1]
+      value: Remember, Amanda ? It was yours...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[2]
+      value: You were playing with it, always...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[3]
+      value: Sis...I miss you. I really loved you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[4]
+      value: Even when you were annoying me, even when you tattle on me...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[5]
+      value: '...which, by the way, made you hyper annoying...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[6]
+      value: Even so, I really liked you...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444689309743, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: narrative.Array.data[7]
+      value: A shame I can't share those with you anymore...
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322421444968148634, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4322421445935484948, guid: 27748297de200ef49b14566bc97b5af6,
         type: 3}
       propertyPath: m_Name
@@ -458,6 +528,11 @@ PrefabInstance:
     - target: {fileID: 4322421445935484949, guid: 27748297de200ef49b14566bc97b5af6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031108914194806222, guid: 27748297de200ef49b14566bc97b5af6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
