@@ -92,6 +92,7 @@ public class Grid : MonoBehaviour
                 {
                     Debug.Log(grid_matrix[positions.Item1, positions.Item2]);
                     Debug.Log("Cell is nope " + positions.Item1 + " " + positions.Item2);
+                    FindObjectOfType<ShakeCamHandler>().Shake();
                     piece.isSnapped = false;
                     piece.transform.position = FindNewPosition();
                     return;

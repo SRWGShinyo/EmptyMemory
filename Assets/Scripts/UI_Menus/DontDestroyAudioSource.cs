@@ -22,6 +22,9 @@ public class DontDestroyAudioSource : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
+        if (SceneManager.GetActiveScene().name == "Main Menu")
+            Destroy(gameObject);
+
         if (!scenes.Contains(SceneManager.GetActiveScene().buildIndex))
         {
             StartCoroutine(fadeOut());
